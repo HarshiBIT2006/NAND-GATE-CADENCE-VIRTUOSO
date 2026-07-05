@@ -11,15 +11,6 @@ Analyze the output waveform.
 
 Theory- A NAND (NOT-AND) gate is a universal digital logic gate that performs the inverse of the AND operation. The output becomes LOW (logic 0) only when both inputs are HIGH. For all other input combinations, the output remains HIGH (logic 1).
 Boolean Expression : Y = (A · B)'
-truth table
-+---------+---------+------------+
-| Input A | Input B | Output (Y) |
-+---------+---------+------------+
-|    0    |    0    |     1      |
-|    0    |    1    |     1      |
-|    1    |    0    |     1      |
-|    1    |    1    |     0      |
-+---------+---------+------------+
 
 In CMOS implementation, the Pull-Up Network (PUN) consists of two PMOS transistors connected in parallel, while the Pull-Down Network (PDN) consists of two NMOS transistors connected in series. This arrangement realizes the NAND logic function efficiently with low static power consumption.
 
